@@ -1,0 +1,14 @@
+#mars {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+#mars img {
+    padding: 10px;
+}
+#mars p {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+#textBox {
+    margin-top: 50px;
+}

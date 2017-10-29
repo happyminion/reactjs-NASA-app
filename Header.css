@@ -1,0 +1,53 @@
+@import "~animate.css/animate.css";
+
+.nav-item a {
+    color: gray;
+}
+.nav-item a:hover {
+    color: white;
+}
+.navbar-nav li {
+    font-family: 'Michroma', sans-serif;
+}
+
+.navigation-appear:hover {
+    animation: 0.7s pulse infinite;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-toggler, .navbar-toggler:active, .navbar-toggler:focus {
+    outline:none;
+}
+.containerHeader {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    background-color: transparent;
+}
+
+@media (min-width: 576px) {
+    .containerHeader {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .containerHeader {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .containerHeader {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .containerHeader {
+        max-width: 1140px;
+    }
+}

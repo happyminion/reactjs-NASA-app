@@ -1,0 +1,27 @@
+@import "~animate.css/animate.css";
+
+#home p {
+    font-family: 'Michroma', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    margin: 1%;
+}
+/*Main text animation*/
+.example-appear {
+    animation: 1.5s fadeInUp;
+}
+
+.example-appear.example-appear-active {
+    transition: 1s;
+}
+
+/*Canvas animation*/
+.canvas-appear {
+    animation: 1.5s fadeInDown;
+}
+
+.canvas-appear.example-appear-active {
+    transition: 1s;
+}
