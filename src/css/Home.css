@@ -1,4 +1,4 @@
-@import "~animate.css/animate.css";
+@import "../../node_modules/animate.css/animate.css";
 
 #home p {
     font-family: 'Michroma', sans-serif;
@@ -24,4 +24,11 @@
 
 .canvas-appear.example-appear-active {
     transition: 1s;
+}
+
+/*Tablet*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    #home p {
+        font-size: 5em;
+    }
 }

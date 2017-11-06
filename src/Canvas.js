@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './css/Canvas.css';
 
 class Canvas extends React.Component {
 
@@ -10,42 +11,42 @@ class Canvas extends React.Component {
         ctx.beginPath();
         ctx.strokeStyle="white";
         ctx.lineWidth=1;
-        ctx.moveTo(30,20);
-        ctx.lineTo(30,230);
+        ctx.moveTo(30,90);
+        ctx.lineTo(30,250);
         ctx.stroke();
 
         ctx.beginPath();
-        ctx.arc(30,242,12,0,2*Math.PI);
-        ctx.stroke();
-
-        ctx.beginPath();
-        ctx.strokeStyle="white";
-        ctx.lineWidth=1;
-        ctx.moveTo(30,254);
-        ctx.lineTo(30,280);
-        ctx.stroke();
-
-        ctx.beginPath();
-        ctx.arc(30,292,12,0,2*Math.PI);
+        ctx.arc(30,262,12,0,2*Math.PI);
         ctx.stroke();
 
         ctx.beginPath();
         ctx.strokeStyle="white";
         ctx.lineWidth=1;
-        ctx.moveTo(30,304);
-        ctx.lineTo(30,330);
+        ctx.moveTo(30,274);
+        ctx.lineTo(30,300);
         ctx.stroke();
 
         ctx.beginPath();
-        ctx.arc(30,342,12,0,2*Math.PI);
+        ctx.arc(30,312,12,0,2*Math.PI);
+        ctx.stroke();
+
+        ctx.beginPath();
+        ctx.strokeStyle="white";
+        ctx.lineWidth=1;
+        ctx.moveTo(30,324);
+        ctx.lineTo(30,350);
+        ctx.stroke();
+
+        ctx.beginPath();
+        ctx.arc(30,362,12,0,2*Math.PI);
         ctx.lineWidth=1;
         ctx.stroke();
 
         ctx.beginPath();
         ctx.strokeStyle="white";
         ctx.lineWidth=1;
-        ctx.moveTo(30,354);
-        ctx.lineTo(30,580);
+        ctx.moveTo(30,374);
+        ctx.lineTo(30,550);
         ctx.stroke();
 
     }

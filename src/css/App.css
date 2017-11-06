@@ -1,19 +1,20 @@
+/*Main styles*/
+body {
+    background-image: url("https://static.pexels.com/photos/220201/pexels-photo-220201.jpeg");
+}
 img {
     width: 70%;
     height: auto;
 }
+/*Container styles and animation*/
 .container {
     background-color: black;
 }
 .container-appear {
     animation: 1.5s zoomIn;
 }
-
 .container-appear.container-appear-active {
     transition: 1s;
-}
-body {
-    background-image: url("https://static.pexels.com/photos/220201/pexels-photo-220201.jpeg");
 }
 @media (min-width: 576px) {
     .container {
@@ -32,7 +33,6 @@ body {
         max-width: 600px;
     }
 }
-
 @media (min-width: 1200px) {
     .container {
         max-width: 600px;

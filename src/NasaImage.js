@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import './NasaImage.css';
+import './css/NasaImage.css';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
 class NasaImage extends Component {

@@ -1,4 +1,4 @@
-@import "~animate.css/animate.css";
+@import "../../node_modules/animate.css/animate.css";
 
 .nav-item a {
     color: gray;
@@ -9,7 +9,6 @@
 .navbar-nav li {
     font-family: 'Michroma', sans-serif;
 }
-
 .navigation-appear:hover {
     animation: 0.7s pulse infinite;
 }

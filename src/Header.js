@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import './Header.css';
+import './css/Header.css';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
 class Header extends Component {
     render() {
         return (
             <div className="containerHeader">
-                <nav className="navbar navbar-expand-xl">
+                <nav className="navbar navbar-expand-md navbar-expand-lg navbar-expand-xl">
 
                     <button className="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>

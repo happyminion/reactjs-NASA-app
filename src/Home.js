@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Canvas from "./Canvas";
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
-import './Home.css';
+import './css/Home.css';
 
 class Home extends Component {
 

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import './MarsRover.css';
+import './css/MarsRover.css';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
 class App extends Component {
